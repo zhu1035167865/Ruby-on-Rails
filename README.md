@@ -16,32 +16,34 @@ This project implements basic soft delete functionality for a Ruby on Rails mode
 
 - **Testing**: RSpec tests are provided to ensure the correct functionality of soft delete, restoration, and the default scope.
 
-Install dependencies:
+**Install dependencies:**
 
-bundle install
+- **bundle install**
 
-Set up the database:
+- **Set up the database:**
    
-rails db:create
-rails db:migrate
+        rails db:create
+        rails db:migrate
 
-Running Tests
-Run RSpec tests to ensure the correct implementation of soft delete functionality:
+- **Running Tests**
+- **Run RSpec tests to ensure the correct implementation of soft delete functionality:**
 
-bundle exec rspec
+        bundle exec rspec
 
-Usage
-Create a new Item:
-item = Item.create(name: "Example Item")
+- **Usage**
+- **Create a new Item:**
+        item = Item.create(name: "Example Item")
 
-Soft delete an item:
-item.soft_delete
+- **Soft delete an item:**
+        item.soft_delete
 
-Restore a soft-deleted item:
-item.restore
+- **Restore a soft-deleted item:**
+        item.restore
 
-Query items (soft-deleted items are excluded by default):
-all_items = Item.all
+- **Query items (soft-deleted items are excluded by default):**
+        all_items = Item.all
+
+
 
 
 
