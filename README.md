@@ -26,9 +26,10 @@ This project implements basic soft delete functionality for a Ruby on Rails mode
         rails db:migrate
 
 - **Running Tests**
-- **Run RSpec tests to ensure the correct implementation of soft delete functionality:**
+- **Run RSpec tests to ensure the correct implementation of soft delete functionality(choose myapp/spec/models/item_spec.rb if needed)) :**
 
         bundle exec rspec
+
 
 - **Usage**
 - **Create a new Item:**
